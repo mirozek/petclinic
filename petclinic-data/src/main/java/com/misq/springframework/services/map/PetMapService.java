@@ -1,7 +1,7 @@
-package services.map;
+package com.misq.springframework.services.map;
 
-import model.Pet;
-import services.CrudService;
+import com.misq.springframework.model.Pet;
+import com.misq.springframework.services.CrudService;
 
 import java.util.Set;
 

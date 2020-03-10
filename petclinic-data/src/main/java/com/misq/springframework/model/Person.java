@@ -1,4 +1,4 @@
-package model;
+package com.misq.springframework.model;
 
 public class Person extends BaseEntity {
     private String firstName;
