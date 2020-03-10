@@ -3,10 +3,11 @@ package com.misq.springframework.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+@RequestMapping("/owner")
 @Controller
-public class IndexController {
+public class OwnerController {
     @RequestMapping({"", "/", "/index", "/index.html"})
     public String index() {
-        return "index";
+        return "owners/index";
     }
 }
